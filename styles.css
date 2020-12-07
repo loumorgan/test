@@ -1,0 +1,33 @@
+/** Flexbox version **/
+.headerFlex {
+    flex: 1;
+}
+
+.containerFlex {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    height: 1005px;
+
+}
+
+.leftMenuFlex {
+    flex: 2;
+    height: 1000px;
+}
+
+.generalContentFlex {
+    flex: 1;
+    flex-grow: 2;
+    height: 1000px;
+}
+
+.rightMenuFlex {
+    flex: -1;
+    height: 1000px;
+
+}
+
+.footerFlex {
+    flex: 3;
+}
